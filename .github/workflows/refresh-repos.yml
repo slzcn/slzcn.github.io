@@ -1,0 +1,53 @@
+name: Refresh Repos Cache
+
+on:
+  schedule:
+    - cron: '0 4 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Fetch public repos and cache to JSON
+        run: |
+          node -e '
+          const fs = require("fs");
+          fetch("https://api.github.com/users/slzcn/repos?per_page=100&sort=pushed&direction=desc", {
+            headers: { Accept: "application/vnd.github+json", "User-Agent": "slzcn-homepage" }
+          })
+            .then((r) => { if (!r.ok) throw new Error("HTTP " + r.status); return r.json(); })
+            .then((list) => {
+              const keep = list
+                .filter((r) => r.name !== "slzcn.github.io")
+                .map((r) => ({
+                  name: r.name,
+                  description: r.description,
+                  language: r.language,
+                  homepage: r.homepage || "",
+                  html_url: r.html_url,
+                  topics: r.topics || [],
+                  stargazers_count: r.stargazers_count,
+                  forks_count: r.forks_count,
+                  pushed_at: r.pushed_at,
+                }));
+              fs.writeFileSync("data/repos.json", JSON.stringify(keep, null, 2) + "\n");
+            })
+            .catch((e) => { console.error(e); process.exit(1); });
+          '
+
+      - name: Commit cached list
+        run: |
+          git config user.name "slzcn-bot"
+          git config user.email "bot@slzcn.local"
+          git add data/repos.json
+          git commit -m "chore: refresh cached repo list" || echo "no changes to commit"
+          git push
