@@ -1,5 +1,53 @@
-<!doctype html><meta charset=utf-8><title>slzcn</title>
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sean Zhang · @slzcn</title>
+  <meta name="description" content="slzcn 的项目主页：自动汇总 GitHub 公开仓库与在线作品。" />
+  <link rel="stylesheet" href="assets/style.css" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='13' fill='%2328E6D8'/%3E%3C/svg%3E" />
+</head>
 <body>
-  Hello, World.
+  <header class="hero">
+    <div class="hero-inner">
+      <img class="avatar" id="avatar" src="https://github.com/slzcn.png" alt="avatar" />
+      <div class="hero-text">
+        <h1>Sean Zhang <span class="handle">@slzcn</span></h1>
+        <p class="bio">产品 · 代码 · 实验性小作品。页面每次打开自动拉取最新公开仓库，新项目发布后会自动出现在下方。</p>
+        <div class="hero-links">
+          <a class="btn ghost" href="https://github.com/slzcn" target="_blank" rel="noopener">GitHub</a>
+          <span class="stat-inline" id="stat-summary"></span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="toolbar">
+      <div class="chips" id="chips">
+        <button class="chip active" data-filter="all">全部</button>
+        <button class="chip" data-filter="web">网页 / H5</button>
+        <button class="chip" data-filter="tool">工具 / 库</button>
+      </div>
+      <div class="toolbar-right">
+        <input type="search" id="search" placeholder="搜索名称或简介…" aria-label="搜索项目" />
+        <select id="sort" aria-label="排序方式">
+          <option value="pushed">最近更新</option>
+          <option value="stars">Star 最多</option>
+          <option value="name">名称 A–Z</option>
+        </select>
+      </div>
+    </section>
+
+    <section id="grid" class="grid" aria-live="polite"></section>
+    <section id="state" class="state hidden"></section>
+  </main>
+
+  <footer class="footer">
+    <span>由 GitHub Pages 托管 · 仓库列表来自 GitHub REST API，每日定时缓存于 data/repos.json</span>
+  </footer>
+
+  <script src="assets/app.js"></script>
 </body>
 </html>
