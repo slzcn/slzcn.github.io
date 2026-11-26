@@ -1,1 +1,198 @@
-[{"name":"CyberPPT-Pro","description":"咨询风格 PPT 生成 Skill：core 共享逻辑 + Claude/Codex 双平台适配，默认全原生可编辑，HTML 样张零图像依赖，12 视觉风格 + 10 场景框架","language":null,"homepage":"","html_url":"https://github.com/slzcn/CyberPPT-Pro","topics":["ai-agent","claude","codex","consulting","ppt","pptx","presentation","skill"],"stargazers_count":21,"forks_count":2,"pushed_at":"2026-11-15T18:25:29Z"},{"name":"mbti-64","description":"六十四型人格图谱 · 6维度64种MBTI人格测试 · 行为投射式场景题","language":"HTML","homepage":"","html_url":"https://github.com/slzcn/mbti-64","topics":[],"stargazers_count":0,"forks_count":0,"pushed_at":"2026-11-17T05:24:43Z"},{"name":"echo-hall","description":"赛博风实时聊天空间 · 进来即聊 · MQTT over WebSocket","language":"JavaScript","homepage":"","html_url":"https://github.com/slzcn/echo-hall","topics":[],"stargazers_count":0,"forks_count":0,"pushed_at":"2026-11-03T06:33:54Z"},{"name":"ui-style-library","description":"15 套主流 UI 设计风格的即用 AI Prompt 库 + 现画示例图 + 一键出 PDF 手册 + 配色体检工具。支持 Claude Code 与 OpenAI Codex。","language":"HTML","homepage":"","html_url":"https://github.com/slzcn/ui-style-library","topics":[],"stargazers_count":1,"forks_count":0,"pushed_at":"2026-11-09T19:00:31Z"},{"name":"desire-history","description":"欲望简史——12道题测出你灵魂深处的欲望原型","language":"HTML","homepage":"","html_url":"https://github.com/slzcn/desire-history","topics":[],"stargazers_count":0,"forks_count":0,"pushed_at":"2026-10-23T02:24:27Z"},{"name":"jianghu","description":"一炷香江湖 · 水墨武侠文字RPG · 打斗/门派/武学/奇遇/副本/营生/论剑","language":"HTML","homepage":"","html_url":"https://github.com/slzcn/jianghu","topics":[],"stargazers_count":1,"forks_count":0,"pushed_at":"2026-10-21T07:30:57Z"},{"name":"soul-mirror","description":"灵魂镜像 · 测测你最像哪个历史人物 · 15道叙事场景题 · 12位历史人物","language":"HTML","homepage":"","html_url":"https://github.com/slzcn/soul-mirror","topics":[],"stargazers_count":0,"forks_count":0,"pushed_at":"2026-10-09T06:28:40Z"},{"name":"techmark-finance-model","description":"","language":"HTML","homepage":"","html_url":"https://github.com/slzcn/techmark-finance-model","topics":[],"stargazers_count":0,"forks_count":0,"pushed_at":"2026-09-06T09:29:13Z"},{"name":"mbti-h5","description":"MBTI 人格测试 H5 · OEJTS 开源题库 · 32 题 5 分钟","language":"HTML","homepage":"","html_url":"https://github.com/slzcn/mbti-h5","topics":[],"stargazers_count":0,"forks_count":1,"pushed_at":"2026-08-30T10:45:23Z"},{"name":"ab-experiment-kb","description":"营销广告公司内部A/B实验知识库: 火山DataTester 203篇归类+全文检索+溯源","language":"HTML","homepage":"","html_url":"https://github.com/slzcn/ab-experiment-kb","topics":[],"stargazers_count":2,"forks_count":0,"pushed_at":"2026-07-13T20:48:38Z"},{"name":"flywhale-im","description":"飞鲸 FlyWhale · 让协作潜入深海 — 产品页面","language":"HTML","homepage":"","html_url":"https://github.com/slzcn/flywhale-im","topics":[],"stargazers_count":0,"forks_count":0,"pushed_at":"2026-07-10T05:15:39Z"},{"name":"future-2050","description":"2050 未来投资模拟器 从AGI临界点出发，押注人类未来二十四年的每一次范式跃迁。你不是在赚钱——你在用资本，给文明的走向投票。","language":"JavaScript","homepage":"","html_url":"https://github.com/slzcn/future-2050","topics":[],"stargazers_count":2,"forks_count":0,"pushed_at":"2026-07-09T07:52:23Z"},{"name":"vc-simulator","description":"中国创业投资模拟器：2000-2026年创投叙事游戏，含投资称号+MBTI风格画像+战绩长图","language":"JavaScript","homepage":"","html_url":"https://github.com/slzcn/vc-simulator","topics":[],"stargazers_count":1,"forks_count":0,"pushed_at":"2026-07-09T07:45:22Z"},{"name":"love-quotes","description":"","language":"HTML","homepage":"","html_url":"https://github.com/slzcn/love-quotes","topics":[],"stargazers_count":1,"forks_count":0,"pushed_at":"2026-06-25T08:31:58Z"},{"name":"pixel-dancer","description":"","language":"HTML","homepage":"","html_url":"https://github.com/slzcn/pixel-dancer","topics":[],"stargazers_count":0,"forks_count":0,"pushed_at":"2026-06-23T02:51:52Z"},{"name":"mj-pixel-dancer","description":"","language":"HTML","homepage":"","html_url":"https://github.com/slzcn/mj-pixel-dancer","topics":[],"stargazers_count":0,"forks_count":0,"pushed_at":"2026-06-23T02:52:05Z"},{"name":"html","description":"","language":null,"homepage":"","html_url":"https://github.com/slzcn/html","topics":[],"stargazers_count":0,"forks_count":0,"pushed_at":"2026-06-16T08:47:50Z"}]
+[
+  {
+    "name": "mbti-64",
+    "description": "六十四型人格图谱 · 6维度64种MBTI人格测试 · 行为投射式场景题",
+    "language": "HTML",
+    "homepage": "https://slzcn.github.io/mbti-64/",
+    "html_url": "https://github.com/slzcn/mbti-64",
+    "topics": [],
+    "stargazers_count": 0,
+    "forks_count": 0,
+    "pushed_at": "2026-11-19T02:14:03Z"
+  },
+  {
+    "name": "echo-hall",
+    "description": "赛博风实时聊天空间 · 进来即聊 · MQTT over WebSocket",
+    "language": "JavaScript",
+    "homepage": "https://slzcn.github.io/echo-hall/",
+    "html_url": "https://github.com/slzcn/echo-hall",
+    "topics": [],
+    "stargazers_count": 0,
+    "forks_count": 0,
+    "pushed_at": "2026-11-03T06:33:49Z"
+  },
+  {
+    "name": "desire-history",
+    "description": "欲望简史——12道题测出你灵魂深处的欲望原型",
+    "language": "HTML",
+    "homepage": "",
+    "html_url": "https://github.com/slzcn/desire-history",
+    "topics": [],
+    "stargazers_count": 0,
+    "forks_count": 0,
+    "pushed_at": "2026-10-23T02:24:23Z"
+  },
+  {
+    "name": "jianghu",
+    "description": "一炷香江湖 · 水墨武侠文字RPG · 打斗/门派/武学/奇遇/副本/营生/论剑",
+    "language": "HTML",
+    "homepage": "",
+    "html_url": "https://github.com/slzcn/jianghu",
+    "topics": [],
+    "stargazers_count": 1,
+    "forks_count": 0,
+    "pushed_at": "2026-10-21T07:30:52Z"
+  },
+  {
+    "name": "soul-mirror",
+    "description": "灵魂镜像 · 测测你最像哪个历史人物 · 15道叙事场景题 · 12位历史人物",
+    "language": "HTML",
+    "homepage": "https://slzcn.github.io/soul-mirror/",
+    "html_url": "https://github.com/slzcn/soul-mirror",
+    "topics": [],
+    "stargazers_count": 0,
+    "forks_count": 0,
+    "pushed_at": "2026-10-09T06:09:45Z"
+  },
+  {
+    "name": "techmark-finance-model",
+    "description": null,
+    "language": "HTML",
+    "homepage": "",
+    "html_url": "https://github.com/slzcn/techmark-finance-model",
+    "topics": [],
+    "stargazers_count": 0,
+    "forks_count": 0,
+    "pushed_at": "2026-09-06T09:29:10Z"
+  },
+  {
+    "name": "mbti-h5",
+    "description": "MBTI 人格测试 H5 · OEJTS 开源题库 · 32 题 5 分钟",
+    "language": "HTML",
+    "homepage": "",
+    "html_url": "https://github.com/slzcn/mbti-h5",
+    "topics": [],
+    "stargazers_count": 0,
+    "forks_count": 1,
+    "pushed_at": "2026-08-30T10:45:07Z"
+  },
+  {
+    "name": "ui-style-library",
+    "description": "15 套主流 UI 设计风格的即用 AI Prompt 库 + 现画示例图 + 一键出 PDF 手册 + 配色体检工具。支持 Claude Code 与 OpenAI Codex。",
+    "language": "HTML",
+    "homepage": "",
+    "html_url": "https://github.com/slzcn/ui-style-library",
+    "topics": [],
+    "stargazers_count": 1,
+    "forks_count": 0,
+    "pushed_at": "2026-07-15T15:12:49Z"
+  },
+  {
+    "name": "ab-experiment-kb",
+    "description": "营销广告公司内部A/B实验知识库: 火山DataTester 203篇归类+全文检索+溯源",
+    "language": "HTML",
+    "homepage": "https://slzcn.github.io/ab-experiment-kb/",
+    "html_url": "https://github.com/slzcn/ab-experiment-kb",
+    "topics": [],
+    "stargazers_count": 2,
+    "forks_count": 0,
+    "pushed_at": "2026-07-13T20:48:22Z"
+  },
+  {
+    "name": "flywhale-im",
+    "description": "飞鲸 FlyWhale · 让协作潜入深海 — 产品页面",
+    "language": "HTML",
+    "homepage": "",
+    "html_url": "https://github.com/slzcn/flywhale-im",
+    "topics": [],
+    "stargazers_count": 0,
+    "forks_count": 0,
+    "pushed_at": "2026-07-10T05:15:35Z"
+  },
+  {
+    "name": "future-2050",
+    "description": "2050 未来投资模拟器 从AGI临界点出发，押注人类未来二十四年的每一次范式跃迁。你不是在赚钱——你在用资本，给文明的走向投票。",
+    "language": "JavaScript",
+    "homepage": "https://slzcn.github.io/future-2050/",
+    "html_url": "https://github.com/slzcn/future-2050",
+    "topics": [],
+    "stargazers_count": 2,
+    "forks_count": 0,
+    "pushed_at": "2026-07-09T07:52:12Z"
+  },
+  {
+    "name": "vc-simulator",
+    "description": "中国创业投资模拟器：2000-2026年创投叙事游戏，含投资称号+MBTI风格画像+战绩长图",
+    "language": "JavaScript",
+    "homepage": "https://slzcn.github.io/vc-simulator/",
+    "html_url": "https://github.com/slzcn/vc-simulator",
+    "topics": [],
+    "stargazers_count": 1,
+    "forks_count": 0,
+    "pushed_at": "2026-07-09T07:44:59Z"
+  },
+  {
+    "name": "CyberPPT-Pro",
+    "description": "咨询风格 PPT 生成 Skill：core 共享逻辑 + Claude/Codex 双平台适配，默认全原生可编辑，HTML 样张零图像依赖，12 视觉风格 + 10 场景框架",
+    "language": null,
+    "homepage": "https://slzcn.github.io/CyberPPT-Pro/examples/sample-preview.html",
+    "html_url": "https://github.com/slzcn/CyberPPT-Pro",
+    "topics": [
+      "ai-agent",
+      "claude",
+      "codex",
+      "consulting",
+      "ppt",
+      "pptx",
+      "presentation",
+      "skill"
+    ],
+    "stargazers_count": 21,
+    "forks_count": 2,
+    "pushed_at": "2026-07-07T16:55:25Z"
+  },
+  {
+    "name": "love-quotes",
+    "description": null,
+    "language": "HTML",
+    "homepage": "https://slzcn.github.io/love-quotes/",
+    "html_url": "https://github.com/slzcn/love-quotes",
+    "topics": [],
+    "stargazers_count": 1,
+    "forks_count": 0,
+    "pushed_at": "2026-06-23T17:40:44Z"
+  },
+  {
+    "name": "pixel-dancer",
+    "description": null,
+    "language": "HTML",
+    "homepage": "https://slzcn.github.io/pixel-dancer/",
+    "html_url": "https://github.com/slzcn/pixel-dancer",
+    "topics": [],
+    "stargazers_count": 0,
+    "forks_count": 0,
+    "pushed_at": "2026-06-22T18:46:20Z"
+  },
+  {
+    "name": "mj-pixel-dancer",
+    "description": null,
+    "language": "HTML",
+    "homepage": "https://slzcn.github.io/mj-pixel-dancer/",
+    "html_url": "https://github.com/slzcn/mj-pixel-dancer",
+    "topics": [],
+    "stargazers_count": 0,
+    "forks_count": 0,
+    "pushed_at": "2026-06-18T17:47:17Z"
+  },
+  {
+    "name": "html",
+    "description": "HTML",
+    "language": null,
+    "homepage": "",
+    "html_url": "https://github.com/slzcn/html",
+    "topics": [],
+    "stargazers_count": 0,
+    "forks_count": 0,
+    "pushed_at": "2026-06-16T08:47:50Z"
+  }
+]
