@@ -1,5 +1,16 @@
 [
   {
+    "name": "echo-hall",
+    "description": "赛博风实时聊天空间 · 进来即聊 · MQTT over WebSocket",
+    "language": "JavaScript",
+    "homepage": "https://slzcn.github.io/echo-hall/",
+    "html_url": "https://github.com/slzcn/echo-hall",
+    "topics": [],
+    "stargazers_count": 0,
+    "forks_count": 0,
+    "pushed_at": "2026-11-27T02:56:04Z"
+  },
+  {
     "name": "mbti-64",
     "description": "六十四型人格图谱 · 6维度64种MBTI人格测试 · 行为投射式场景题",
     "language": "HTML",
@@ -9,17 +20,6 @@
     "stargazers_count": 0,
     "forks_count": 0,
     "pushed_at": "2026-11-19T02:14:03Z"
-  },
-  {
-    "name": "echo-hall",
-    "description": "赛博风实时聊天空间 · 进来即聊 · MQTT over WebSocket",
-    "language": "JavaScript",
-    "homepage": "https://slzcn.github.io/echo-hall/",
-    "html_url": "https://github.com/slzcn/echo-hall",
-    "topics": [],
-    "stargazers_count": 0,
-    "forks_count": 0,
-    "pushed_at": "2026-11-03T06:33:49Z"
   },
   {
     "name": "desire-history",
