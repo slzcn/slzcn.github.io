@@ -46,9 +46,19 @@ function relTime(iso) {
   return new Date(iso).toLocaleDateString('zh-CN');
 }
 
+// 已知未开通 GitHub Pages 的仓库，不自动拼预览地址，避免死链
+const NO_PAGES = new Set(['html', 'ui-style-library', 'echo-hall']);
+
 function isWebRepo(r) {
   if (r.homepage && r.homepage.trim()) return true;
   return ['HTML', 'JavaScript'].includes(r.language);
+}
+
+function demoUrl(r) {
+  if (r.homepage && r.homepage.trim()) return r.homepage;
+  if (NO_PAGES.has(r.name)) return null;
+  if (['HTML', 'JavaScript'].includes(r.language)) return `https://slzcn.github.io/${r.name}/`;
+  return null;
 }
 
 function matches(r) {
@@ -83,8 +93,9 @@ function render() {
     const langColor = LANG_COLORS[r.language] || '#8b949e';
     const topics = (r.topics || []).slice(0, 6)
       .map((t) => `<span class="topic">${escapeHtml(t)}</span>`).join('');
-    const demo = r.homepage && r.homepage.trim()
-      ? `<a class="demo" href="${escapeHtml(r.homepage)}" target="_blank" rel="noopener">在线预览</a>` : '';
+    const url = demoUrl(r);
+    const demo = url
+      ? `<a class="demo" href="${escapeHtml(url)}" target="_blank" rel="noopener">在线预览</a>` : '';
     return `
       <article class="card">
         <div class="card-top">
